@@ -1,0 +1,8 @@
+platform:ios,'8.0'
+
+target 'FSTrackSample' do
+
+  pod 'FSTrack', :path => '../'
+
+end
+

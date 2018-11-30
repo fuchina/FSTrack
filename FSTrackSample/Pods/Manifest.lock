@@ -1,0 +1,16 @@
+PODS:
+  - FSTrack (0.0.1)
+
+DEPENDENCIES:
+  - FSTrack (from `../`)
+
+EXTERNAL SOURCES:
+  FSTrack:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSTrack: 2f6b70976ba21a85e447021c85ded0cfe115ae59
+
+PODFILE CHECKSUM: bae643d5181c0104c163618e002b58bd59ca1395
+
+COCOAPODS: 1.1.1
