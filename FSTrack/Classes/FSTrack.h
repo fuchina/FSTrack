@@ -12,6 +12,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FSTrack : NSObject
 
+// 友盟统计
++ (void)configUMeng:(NSString *)appKey
+          channelId:(NSString *)channelId
+ crashReportEnabled:(BOOL)crashReportEnabled
+         appVersion:(NSString *)appVersion
+               PUID:(NSString *)puid;
+
++ (void)event:(NSString *)event;
++ (void)pageStart:(NSString *)page;
++ (void)pageEnd:(NSString *)page;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -15,8 +15,7 @@ Pod::Spec.new do |s|
   s.source_files = 'FSTrack/Classes/*'
   s.frameworks = 'UIKit'
   
-#  s.dependency   'FSUIKit'
-#  s.dependency   'FSToast'
-#  s.dependency   'FSKit'  
+#标准SDK，含IDFA
+  s.dependency   'UMengAnalytics'  
 
 end

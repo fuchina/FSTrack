@@ -1,16 +1,23 @@
 PODS:
-  - FSTrack (0.0.1)
+  - FSTrack (0.0.1):
+    - UMengAnalytics
+  - UMengAnalytics (4.2.4)
 
 DEPENDENCIES:
   - FSTrack (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - UMengAnalytics
 
 EXTERNAL SOURCES:
   FSTrack:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FSTrack: 2f6b70976ba21a85e447021c85ded0cfe115ae59
+  FSTrack: f71ebfd16b15dad94cd816333fd1cb3ba2cd775e
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
 
 PODFILE CHECKSUM: bae643d5181c0104c163618e002b58bd59ca1395
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.6.0.beta.2
