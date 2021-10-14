@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
   
 #标准SDK，含IDFA
-  s.dependency   'UMengAnalytics'  
+#  s.dependency   'UMengAnalytics'  
 
 end

@@ -7,7 +7,7 @@
 //
 
 #import "FSTrack.h"
-#import <UMMobClick/MobClick.h>
+//#import <UMMobClick/MobClick.h>
 
 @implementation FSTrack
 
@@ -15,6 +15,8 @@
 //#ifdef __OPTIMIZE__
 //#if TARGET_IPHONE_SIMULATOR
 //#else
+    /*
+    
     UMConfigInstance.appKey = appKey;
     UMConfigInstance.channelId = channelId;
     [MobClick startWithConfigure:UMConfigInstance];//配置以上参数后调用此方法初始化SDK！
@@ -22,6 +24,9 @@
     [MobClick setCrashReportEnabled:crashReportEnabled];
     [MobClick setAppVersion:appVersion];
     [MobClick profileSignInWithPUID:puid];
+     
+     */
+    
 //#endif
 //#endif
 }
@@ -31,7 +36,7 @@
 //#ifdef __OPTIMIZE__
 //#if TARGET_IPHONE_SIMULATOR
 //#else
-    [MobClick event:event];
+//    [MobClick event:event];
 //#endif
 //#endif
 }
@@ -40,7 +45,7 @@
 //#ifdef __OPTIMIZE__
 //#if TARGET_IPHONE_SIMULATOR
 //#else
-    [MobClick beginLogPageView:page];
+//    [MobClick beginLogPageView:page];
 //#endif
 //#endif
 }
@@ -49,7 +54,7 @@
 //#ifdef __OPTIMIZE__
 //#if TARGET_IPHONE_SIMULATOR
 //#else
-    [MobClick endLogPageView:page];
+//    [MobClick endLogPageView:page];
 //#endif
 //#endif
 }
